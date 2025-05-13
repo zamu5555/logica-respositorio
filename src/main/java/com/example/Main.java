@@ -16,7 +16,7 @@ public class Main {
         usuario = scanner.nextLine();
         System.out.print("Cree una contraseña: ");
         contrasena = scanner.nextLine();
-        System.out.println("Registro exitoso.\n");
+        System.out.println("Registro exitoso en UNIFOR.ME.\n");
 
 
         System.out.println("=== Inicio de sesión ===");
