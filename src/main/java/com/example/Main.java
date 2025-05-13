@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String usuario;
-        String contrasena;
+        String contraseña;
         List<String> carrito = new ArrayList<>();
 
    
@@ -15,7 +15,7 @@ public class Main {
         System.out.print("Cree un nombre de usuario: ");
         usuario = scanner.nextLine();
         System.out.print("Cree una contraseña: ");
-        contrasena = scanner.nextLine();
+        contraseña = scanner.nextLine();
         System.out.println("Registro exitoso en UNIFOR.ME.\n");
 
 
@@ -25,7 +25,7 @@ public class Main {
         System.out.print("Ingrese su contraseña: ");
         String c = scanner.nextLine();
 
-        if (u.equals(usuario) && c.equals(contrasena)) {
+        if (u.equals(usuario) && c.equals(contraseña)) {
             System.out.println("Inicio de sesión exitoso.\n");
 
 
@@ -33,7 +33,10 @@ public class Main {
             while (true) {
                 System.out.print("Ingrese un artículo para agregar al carrito (o 'fin' para terminar): ");
                 String articulo = scanner.nextLine();
-                if (articulo.equalsIgnoreCase("fin")) break;
+                if (articulo.equalsIgnoreCase("fin")) 
+                
+                break;
+
                 carrito.add(articulo);
             }
 
