@@ -10,14 +10,12 @@ public class Main {
         String contraseña;
         List<String> carrito = new ArrayList<>();
 
-   
         System.out.println("=== Registro de usuario ===");
         System.out.print("Cree un nombre de usuario: ");
         usuario = scanner.nextLine();
         System.out.print("Cree una contraseña: ");
         contraseña = scanner.nextLine();
         System.out.println("Registro exitoso en UNIFOR.ME.\n");
-
 
         System.out.println("=== Inicio de sesión ===");
         System.out.print("Ingrese su usuario: ");
@@ -28,18 +26,16 @@ public class Main {
         if (u.equals(usuario) && c.equals(contraseña)) {
             System.out.println("Inicio de sesión exitoso.\n");
 
-
             System.out.println("=== Selección de artículos ===");
             while (true) {
                 System.out.print("Ingrese un artículo para agregar al carrito (o 'fin' para terminar): ");
                 String articulo = scanner.nextLine();
-                if (articulo.equalsIgnoreCase("fin")) 
-                
-                break;
+                if (articulo.equalsIgnoreCase("fin"))
+
+                    break;
 
                 carrito.add(articulo);
             }
-
 
             System.out.println("\n=== Revisión de artículos ===");
             if (carrito.isEmpty()) {
@@ -50,10 +46,10 @@ public class Main {
                 }
             }
 
-            System.out.print("\n¿Desea confirmar la compra? (sí/no): ");
+            System.out.print("\n¿Desea confirmar la compra? (si/no): ");
             String respuesta = scanner.nextLine();
             if (respuesta.equalsIgnoreCase("si")) {
-              
+
                 System.out.println("\n=== Método de pago ===");
                 System.out.println("1. Tarjeta");
                 System.out.println("2. Efectivo");
