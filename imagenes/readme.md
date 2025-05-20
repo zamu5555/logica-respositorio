@@ -41,7 +41,7 @@ Con la ayuda de la plataforma de Trello, distribuimos tareas pendientes, en proc
 
 Cada integrante tiene a cargo tareas específicas que se diferencian por colores asignados respectivamente.
 
-![Kanban](./imagenes/trello.png)
+![Kanban](trello.png)
 
 
 ## Diagramas de flujo y casos de uso:
