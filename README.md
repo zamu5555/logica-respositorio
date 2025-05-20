@@ -52,21 +52,21 @@ Se identificaron 5 acciones relevantes y se desarrolló el paso a paso para desg
 
 - Diagramas de flujo:
 
-![Diagrama de flujo](diag1.png)
-![Diagrama de flujo](diag2.png)
-![Diagrama de flujo](diag3.png)
+![Diagrama de flujo](imagenes/diag1.png)
+![Diagrama de flujo](imagenes/diag2.png)
+![Diagrama de flujo](imagenes/diag3.png)
 
 - Casos de uso:
 
-![Caso de uso](caso1.png)
+![Caso de uso](imagenes/caso1.png)
 
-![Caso de uso](caso2.png)
+![Caso de uso](imagenes/caso2.png)
 
-![Caso de uso](caso3.png)
+![Caso de uso](imagenes/caso3.png)
 
-![Caso de uso](caso4.png)
+![Caso de uso](imagenes/caso4.png)
 
-![Caso de uso](caso5.png)
+![Caso de uso](imagenes/caso5.png)
 
 
 
@@ -78,9 +78,9 @@ A futuro, se empleará la herramienta de ***Vaadin*** para desarrollar una aplic
 
 A continuación se evidenciará el código que se ha construido y que eventualente estará inicializado con un método main y métodos alternos para la creación de un menú dentro del IDE de ***Studio Visual Code***.
 
-![código java](cod1.png)
+![código java](imagenes/cod1.png)
 
-![código java](cod2.png)
+![código java](imagenes/cod2.png)
 
 
 ## ***NOTA***:
